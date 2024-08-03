@@ -83,7 +83,8 @@ public class Assignment extends Base{
 		confirm.click();
 		driver.switchTo().alert().accept();
 		WebElement prompt=driver.findElement(By.id("promptBox"));
-		prompt.sendKeys("varsha");
+		prompt.click();
+		driver.switchTo().alert().sendKeys("varsha");
 		driver.switchTo().alert().accept();
 
 		
