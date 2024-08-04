@@ -14,10 +14,10 @@ public class Base {
 		driver.manage().window().maximize();
 		
 	}
-	/*@AfterMethod
+	@AfterMethod
 	public void QuitAndClose() {
 		driver.close();
 		
-	}*/
+	}
 
 }
