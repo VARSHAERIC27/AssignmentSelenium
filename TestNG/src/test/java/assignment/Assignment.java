@@ -53,8 +53,12 @@ public class Assignment extends Base{
 	@Test
 	public void checkBox() {
 		driver.navigate().to("https://total-qa.com/checkbox-example/#google_vignette");
-		WebElement checkbox=driver.findElement(By.xpath("(//input[@type='checkbox'])[1]"));
-		checkbox.click();
+		WebElement checkbox1=driver.findElement(By.xpath("(//input[@type='checkbox'])[1]"));
+		checkbox1.click();
+		WebElement checkbox2=driver.findElement(By.xpath("(//input[@type='checkbox'])[2]"));
+		checkbox2.click();
+		WebElement checkbox3=driver.findElement(By.xpath("(//input[@type='checkbox'])[3]"));
+		checkbox3.click();
 	}
 	@Test
 	public void iframe() {
@@ -63,6 +67,13 @@ public class Assignment extends Base{
 		driver.switchTo().frame(iframeelement);
 		WebElement clickelement=driver.findElement(By.xpath("//button[@id='u_5_5']"));
 		clickelement.click();
+		WebElement iframe2=driver.findElement(By.xpath("//iframe[@id='iframe1']"));
+		driver.switchTo().frame(iframe2);
+		WebElement clickelement2=driver.findElement(By.xpath("//button[@id='u_5_6']"));
+		clickelement2.click();
+
+		
+
         }
 	@Test
 	public void dropAndDown() {
@@ -92,12 +103,16 @@ public class Assignment extends Base{
 			driver.navigate().to("https://formsmarts.com/html-form-example");
 			WebElement iframe=driver.findElement(By.xpath("//iframe[@allow='camera; fullscreen; geolocation']"));
 			driver.switchTo().frame(iframe);
+            //WebElement firstname=driver.findElement(By.xpath("//input[@id='u_Zig_4607']"));
             WebElement firstname=driver.findElement(By.xpath("//input[@placeholder='Your first name']"));
-			firstname.sendKeys("varsha");
+
+            firstname.sendKeys("varsha");
             WebElement lastname=driver.findElement(By.xpath("//input[@placeholder='Your last name']"));
-			lastname.sendKeys("Eric");
+            //WebElement lastname=driver.findElement(By.xpath("//input[@id='u_Zig_338354']"));
+            lastname.sendKeys("Eric");
 			WebElement email=driver.findElement(By.xpath("//input[@placeholder='Your email address']"));
-			email.sendKeys("varshaanna1311@gmail.com");
+			//WebElement email=driver.findElement(By.xpath("//input[@id='u_Zig_4608']"));
+            email.sendKeys("varshaanna1311@gmail.com");
 			WebElement subinquiry=driver.findElement(By.xpath("//select[@aria-required='true']"));
 			Select select=new Select (subinquiry);
 			select.selectByValue("Support Inquiry");
@@ -120,7 +135,7 @@ public class Assignment extends Base{
 		WebElement date=driver.findElement(By.xpath("//input[@id='datepicker']"));
 		date.sendKeys("27-3-2024");
 		WebElement profession=driver.findElement(By.xpath("(//input[@name='profession'])[2]"));
-		//profession.click();
+		profession.click();
 		WebElement tool=driver.findElement(By.xpath("//input[@id='tool-2']"));
 		tool.click();
 		WebElement continent=driver.findElement(By.xpath("//select[@id='continents']"));
@@ -130,7 +145,7 @@ public class Assignment extends Base{
 		Select select1=new Select(comment);
 		select1.selectByIndex(3);
 		WebElement image=driver.findElement(By.xpath("//input[@id='photo']"));
-		image.sendKeys("C:\\Users\\DELL\\Downloads.jpg");
+		image.sendKeys("C:\\Users\\DELL\\Downloads\\nature.jpg");
 		WebElement submit=driver.findElement(By.xpath("//button[@id='submit']"));
 		submit.click();
 	}
