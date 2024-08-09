@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-08T15:21:34 IST" name="Default suite" finished-at="2024-08-08T15:22:30 IST" duration-ms="55973">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T15:21:34 IST" name="Default test" finished-at="2024-08-08T15:22:30 IST" duration-ms="55973">
+      <class name="testScript.Assertion">
+        <test-method is-config="true" signature="initialiseBrowser()[pri:0, instance:testScript.Assertion@32502377]" started-at="2024-08-08T15:21:34 IST" name="initialiseBrowser" finished-at="2024-08-08T15:21:38 IST" duration-ms="4109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method signature="assertEqualsTest()[pri:0, instance:testScript.Assertion@32502377]" started-at="2024-08-08T15:21:38 IST" name="assertEqualsTest" finished-at="2024-08-08T15:21:39 IST" duration-ms="1342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertEqualsTest -->
+        <test-method is-config="true" signature="initialiseBrowser()[pri:0, instance:testScript.Assertion@32502377]" started-at="2024-08-08T15:21:39 IST" name="initialiseBrowser" finished-at="2024-08-08T15:21:43 IST" duration-ms="3089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method signature="assertFalseTest()[pri:0, instance:testScript.Assertion@32502377]" started-at="2024-08-08T15:21:43 IST" name="assertFalseTest" finished-at="2024-08-08T15:21:44 IST" duration-ms="1350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertFalseTest -->
+        <test-method is-config="true" signature="initialiseBrowser()[pri:0, instance:testScript.Assertion@32502377]" started-at="2024-08-08T15:21:44 IST" name="initialiseBrowser" finished-at="2024-08-08T15:21:49 IST" duration-ms="5070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method signature="assertNotEqualsTest()[pri:0, instance:testScript.Assertion@32502377]" started-at="2024-08-08T15:21:49 IST" name="assertNotEqualsTest" finished-at="2024-08-08T15:21:51 IST" duration-ms="2316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertNotEqualsTest -->
+        <test-method is-config="true" signature="initialiseBrowser()[pri:0, instance:testScript.Assertion@32502377]" started-at="2024-08-08T15:21:51 IST" name="initialiseBrowser" finished-at="2024-08-08T15:22:06 IST" duration-ms="14443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method signature="assertNotNull()[pri:0, instance:testScript.Assertion@32502377]" started-at="2024-08-08T15:22:06 IST" name="assertNotNull" finished-at="2024-08-08T15:22:09 IST" duration-ms="3123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertNotNull -->
+        <test-method is-config="true" signature="initialiseBrowser()[pri:0, instance:testScript.Assertion@32502377]" started-at="2024-08-08T15:22:09 IST" name="initialiseBrowser" finished-at="2024-08-08T15:22:17 IST" duration-ms="8171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method signature="assertNullTest()[pri:0, instance:testScript.Assertion@32502377]" started-at="2024-08-08T15:22:17 IST" name="assertNullTest" finished-at="2024-08-08T15:22:21 IST" duration-ms="4296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertNullTest -->
+        <test-method is-config="true" signature="initialiseBrowser()[pri:0, instance:testScript.Assertion@32502377]" started-at="2024-08-08T15:22:21 IST" name="initialiseBrowser" finished-at="2024-08-08T15:22:26 IST" duration-ms="4931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method signature="assertTrueTest()[pri:0, instance:testScript.Assertion@32502377]" started-at="2024-08-08T15:22:26 IST" name="assertTrueTest" finished-at="2024-08-08T15:22:30 IST" duration-ms="3665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertTrueTest -->
+      </class> <!-- testScript.Assertion -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
